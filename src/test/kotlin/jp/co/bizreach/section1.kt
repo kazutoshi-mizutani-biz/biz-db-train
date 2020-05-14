@@ -88,6 +88,7 @@ where MEMBER.MEMBER_ID = 1
 select * 
 from MEMBER
 where MEMBER.BIRTHDATE is null
+order by MEMBER.UPDATE_DATETIME
         """.fetch()
 
         // Assert:
