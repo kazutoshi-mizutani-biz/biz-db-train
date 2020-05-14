@@ -27,6 +27,8 @@ class Section1 {
         val results = """
 select *
 from MEMBER
+where MEMBER.MEMBER_NAME like 'S%'
+order by MEMBER.MEMBER_NAME asc
         """.fetch()
 
         // Assert:
