@@ -58,6 +58,7 @@ order by MEMBER.MEMBER_NAME asc
         val results = """
 select * 
 from MEMBER
+where MEMBER.MEMBER_ID = 1
         """.fetch()
 
         // Assert:
